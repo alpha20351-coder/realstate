@@ -1,0 +1,493 @@
+ /* Sifooyinka Guud (Global Styles) */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+        
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor:#014F86;
+    --secondaryColor:#ffffff;
+    --accent-color:#000000;
+}
+
+/* div wayn  */
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.bars{
+    display: none;
+}
+/* list */
+.list{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.list a{
+    text-decoration: none;
+    color: var(--accent-color);
+    transition: 0.3s;
+}
+
+/* button 1-2 */
+.btn-1{
+    background-color: var(--primaryColor);
+    padding: 2px 20px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: var(--primaryColor);
+    color: black;
+
+}
+
+.btn-2{
+    background-color: black;
+    border: none;
+    padding: 2px 20px;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-2:hover{
+    transform: translatey(4px);
+
+
+}
+
+/* Hero */
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+
+/* h1 hero-text  */
+.hero-left{
+    width: 450px;
+}
+.hero-text{
+    font-weight: 900;
+    line-height: 60px;
+    font-size: 60px;
+    margin-bottom: 1rem;
+}
+
+/* image */
+.sawir{
+    border-radius: 2rem;
+    width: 400px;
+    height: 450px;
+}
+
+/* button 3-4 */
+.btn-3{
+    background-color: var(--primaryColor);
+    padding: 6px 20px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.btn-3:hover{
+    background-color: gray;
+    color: black;
+
+}
+
+.btn-4{
+    background-color: black;
+    border: none;
+    padding: 6px 20px;
+    border-radius: 2px;
+    color: white;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.btn-4:hover{
+    background-color: green;
+
+}
+
+/* showcase */
+.showcase{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/* h1 text-showcase */
+.text-showcase{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+/* image ljpg */
+.ljpg{
+    border-radius: 3rem;
+    width: 400px;
+
+}
+
+/* project  */
+.left-side{
+    border-radius: 3rem;
+    width: 400px;
+}
+
+/* backroon possision */
+.bg-po{
+    background-color: #014F86;
+    padding: 2px 40px;
+    color: white;
+    position: absolute;
+    border-radius: 20px;
+    bottom: -20px;
+    left: 50px;
+
+}
+.parent-project{
+    position: relative;
+
+}
+
+.wjpg{
+    border-radius: 3rem;
+    width: 400px;
+}
+
+.bg-po-2{
+    background-color: #014F86;
+    padding: 2px 40px;
+    color: white;
+    position: absolute;
+    border-radius: 20px;
+    bottom: -20px;
+    left: 50px;
+
+}
+.parent-2{
+    position: relative;
+
+}
+
+.wwjpg{
+    border-radius: 3rem;
+    width: 400px;
+}
+
+.bg-po-3{
+    background-color: #014F86;
+    padding: 2px 40px;
+    color: white;
+    position: absolute;
+    border-radius: 20px;
+    bottom: -20px;
+    left: 50px;
+
+}
+.parent-3{
+    position: relative;
+
+}
+
+/* project-flex */
+.project-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* text-project  */
+.text-project{
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+/* few smile */
+.smilejpg{
+    border-radius: 2rem;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.fewsmile{
+    text-align: center;
+    margin-top: 3rem;
+
+}
+.smileflex{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+}
+.smileright{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 30px;
+}
+
+.textsmile{
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.textsmilepar{
+   
+    font-size: medium;
+    text-align: start;
+    font-weight: 800;
+    
+}
+
+/* realState */
+.realState{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.realState-1{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.realState-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-self: center;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+/* contact Us */
+.contact-Us{
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+
+.contact-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+
+
+}
+
+.last-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.input-from{
+    width: 250px;
+    height: 40px;
+    margin: 4px;
+}
+.area{
+    width: 510px;
+    height: 100px;
+}
+.btn-5{
+    border: none;
+    padding: 4px 40px;
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+    border-radius: 2px;
+
+}
+
+/* footer */
+.footer{
+    padding: 10px;
+    background-color:var(--accent-color);
+    margin-top: 2rem;
+    color: var(--secondaryColor);
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    
+
+}
+
+.list-footer{
+    list-style: none;
+    line-height: 30px;
+
+}
+
+@media (max-width: 480px) {
+    .list{
+        display: none;
+    }
+    .btn-1{
+        display: none;
+
+    }
+    .btn-2{
+        display: none;
+    }
+    .bars{
+        display: block;
+        font-size: 2rem;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+    .sawir{
+        width: 350px;
+        height: 350px;
+        
+        margin-top:1rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+
+    }
+    .hero-text{
+        font-size: 50px;
+        
+    }
+
+    .hero-left{
+        margin-left: 3rem;
+        width: 400px;
+    }
+
+    .btn-3{
+        margin-left: 3px;
+    }
+    .showcase{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .text-showcase{
+        font-size: 2rem;
+        margin-bottom: 4px;
+        margin-top: 4px;
+        
+    }
+    .ljpg{
+    border-radius: 3rem;
+    width: 380px;
+    margin-top: 2rem;
+
+    }  
+    /* project */
+    .project-flex{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+    }
+    .left-side{
+        width: 380px;
+    }
+
+    .wjpg{
+        width: 380px;
+        
+    }
+
+    .parent-2{
+        margin: 2rem 0px;
+    }
+
+    .parent-3{
+        margin: 2rem 0px;
+    }
+    .wwjpg{
+        width: 380px;
+    }
+
+   /* few smile */
+   .fewsmile{
+    display: flex;
+    flex-direction: column;
+
+   }
+   .smileflex{
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+   .smilejpg{
+     width: 380px;
+   }
+   
+   .smileright{
+    margin-left: 2rem;
+   }
+
+    /* realstate */
+    .realState-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .realState-1{
+        width: 380px;
+    }
+    /* contact */
+    .contact-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .last-image{
+        width: 380px;
+    }
+    .input-from{
+    width: 190px;
+    height: 40px;
+    margin: 2px;
+    margin-top: 20px;
+    }
+    .area{
+    width: 392px;
+    height: 100px;
+    }
+   /* footer */
+   .footer-flex{
+        display: flex;
+        flex-direction: column;
+        padding: 4px 8px;
+   }
+
+
+}
