@@ -52,11 +52,11 @@ html{
     border-radius: 2px;
     cursor: pointer;
 }
-.btn-1:hover{
+/* .btn-1:hover{
     background-color: var(--primaryColor);
     color: black;
 
-}
+} */
 
 .btn-2{
     background-color: black;
@@ -67,11 +67,11 @@ html{
     cursor: pointer;
 }
 
-.btn-2:hover{
+/* .btn-2:hover{
     transform: translatey(4px);
 
 
-}
+} */
 
 /* Hero */
 
