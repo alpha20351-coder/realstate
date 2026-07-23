@@ -53,6 +53,11 @@ html{
     
 }
 
+/* .btn-1:hover{
+    background-color: var(--primaryColor);
+    color: black;
+
+} */
 
 .btn-2{
     background-color: black;
@@ -63,6 +68,11 @@ html{
     
 }
 
+/* .btn-2:hover{
+    transform: translatey(4px);
+
+
+} */
 
 
 /* Hero */
